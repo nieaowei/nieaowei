@@ -30,7 +30,8 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - run: sudo echo 'deb http://ppa.launchpad.net/artyom.h31/3proxy/ubuntu xenial main' > /etc/apt/sources.list.d/artyom_h31-ubuntu-3proxy-xenial.list 
+      # - run: sudo echo 'deb http://ppa.launchpad.net/artyom.h31/3proxy/ubuntu xenial main' > /etc/apt/sources.list.d/artyom_h31-ubuntu-3proxy-xenial.list 
+      - run: sudo add-apt-repository ppa:artyom.h31/3proxy
       - run: sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 
       - run: sudo apt update
       - run: sudo apt install 3proxy
