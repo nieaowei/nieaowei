@@ -1,7 +1,3 @@
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nieaowei&show_icons=true&theme=tokyonight&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nieaowei)
-
-![Profile views](https://gpvc.arturio.dev/nieaowei)  
 
 <!--
 **nieaowei/nieaowei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
